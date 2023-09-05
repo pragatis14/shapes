@@ -15,7 +15,7 @@ export default function Shape(){
     }
     return(
         <div>
-            <select name="cars" id="cars" onChange={e=>handleChangeDropDown(e)}>
+            <select id="shape" onChange={e=>handleChangeDropDown(e)}>
                 <option value="Square">Square</option>
                 <option value="Circle">Circle</option>
             </select>
